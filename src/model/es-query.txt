@@ -1,0 +1,33 @@
+{
+  "query": {
+	"query_string":{
+		"query" : "(Citation:(Online)) OR (Citation:(ONLINE)) OR (Citation:(online))"
+	}
+  }
+}
+
+
+Total citations
+96465
+
+Online only
+41860
+
+Vinod - ALL IN ONE (Journal)
+52962
+
+Civil Only
+29027
+
+Criminal Only
+33979
+
+
+
+{
+  "query": {
+	"query_string":{
+		"query" : "(Case_No:Criminal) OR (Case_No:Cri) OR (Case_No:Cr.) OR (Case_No:Cri.) OR (Case_No:CRIMINAL) OR (Case_No:CRI) OR (Case_No:CR.) OR (Case_No:CRI.) OR (Citation:(Cri)) OR (Citation:CRI)"
+	}
+  }
+}
